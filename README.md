@@ -1,4 +1,4 @@
-# # Carrinho de compras, simples com PHP Puro, JQuery e Ajax
+## Carrinho de compras, simples com PHP Puro, JQuery e Ajax
 
 Carrinho de compras simples com conceitos MVC aplicado, utilizando PHP Puro e com Orientação a Objetos.
 
