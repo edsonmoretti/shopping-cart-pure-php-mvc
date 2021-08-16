@@ -1,6 +1,5 @@
 # # Carrinho de compras, simples com PHP Puro, JQuery e Ajax
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
 Carrinho de compras simples com conceitos MVC, utilizando PHP Puro, Bootstrap, JQuery e Ajax
 
 ## Requerimentos
@@ -31,12 +30,3 @@ Principais arquivos e pastas:
 > **OBS:** As **Views** do painel Admin são carregadas dinamicamente de acordo com as rotas passadas na URL.
 
 
-Diagrama básico: 
-```mermaid
-sequenceDiagram
-Lojinha (HTML) ->> PHP: Ajax request
-PHP -->> Lojinha (HTML): response (JSON)
-PHP -->> Model: Chama consultas no Model!
-Model -->> MySQL: Consulta no banco
-MySQL -->> Model: 
-```
