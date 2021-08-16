@@ -1,9 +1,9 @@
 # # Carrinho de compras, simples com PHP Puro, JQuery e Ajax
 
-Carrinho de compras simples com conceitos MVC, utilizando PHP Puro, Bootstrap, JQuery e Ajax
+Carrinho de compras simples com conceitos MVC aplicado, utilizando PHP Puro e com Orientação a Objetos.
 
 ## Requerimentos
-- PHP 7.4
+- PHP 7.4 ou superior
 
 # Instalação
 
