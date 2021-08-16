@@ -5,6 +5,9 @@ if (isset($_POST['server'])) {
     $password = filter_input(INPUT_POST, 'password');
     $user = filter_input(INPUT_POST, 'user');
     $url = filter_input(INPUT_POST, 'url');
+    if(!file_exists('../app/config/')){
+        mkdir('../app/config/');
+    }
     $configFile = fopen("../app/config/configuration.php", "w") or die("Unable to open file!");
     $config = "<?php
 define('DB_HOST', '$server');
