@@ -1,0 +1,16 @@
+{
+  "autoload": {
+    "psr-4": {
+      "App\\": "app",
+      "App\\Models\\": "app/models",
+      "App\\Database\\": "app/bd"
+    },
+    "files": [
+      "app/config/configuration.php",
+      "app/utils.php"
+    ]
+  },
+  "require": {
+    "ext-curl": "*"
+  }
+}
